@@ -1,0 +1,170 @@
+
+.line{
+    width: 100%;
+    background-color: #EDEDED;
+    height: 2px;
+}
+.hoverr:hover{
+    color: #4d8526 !important;
+}
+
+   
+ .section-three{
+    
+    .hisobot{
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        button{
+            border-radius: 20px;
+            border: 2px solid white;
+            padding: 5px 20px;
+        }
+    }
+    .hisobotikki{
+        position: absolute;
+        top: 8%;
+        right: 10%;
+        button{
+            border-radius: 20px;
+            border: 2px solid white;
+            padding: 5px 20px;
+        }
+    }
+    .hisobotuch{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        button{
+            border-radius: 20px;
+            border: 2px solid white;
+            padding: 5px 20px;
+        }
+    }
+    .mergan{
+        margin-top: 88px;
+    }
+
+    .textsLorem{ 
+        margin-top: -5px;
+        font-weight: 600;
+        color: #747474;
+        font-size: 20px;
+    }
+ 
+    .textTwo{
+        color: #747474;
+        font-weight: bold;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .location{
+        font-size: 20px;
+        font-weight: 500;
+        color: #747474;
+    }
+
+ }
+
+
+ @media (max-width:576px) {
+   .section-three{
+   .textsLorem {
+    font-size: 18px;
+   }
+   .textTwo {
+    font-size: 20px;
+   }
+   
+    .hisobotikki{
+        position: absolute;
+        top: 6%;
+        right: 10%;
+        .fr{
+            font-size: 25px !important;
+            font-weight: 700;
+        }
+        .health{
+            font-size: 15px !important;
+        }
+        button{
+            margin-top: 5px !important;
+            border-radius: 20px;
+            border: 2px solid white;
+            padding: 2px 12px;
+        }
+    }
+    .hisobotuch{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        .fr{
+            font-size: 25px !important;
+            font-weight: 700;
+        }
+        .health{
+            font-size: 15px !important;
+        }
+        button{
+            margin-top: 5px !important;
+            border-radius: 20px;
+            border: 2px solid white;
+            padding: 2px 12px;
+        }
+    }
+
+       .col-lg-6{
+           .card{
+               padding: 0 !important;
+           }
+       }
+       .colikki{
+        .row{
+            .col-lg-12{
+                padding: 0 15px !important;
+            }
+        }
+    }
+    
+        .fs-22 {
+            font-size: 20px !important;
+        }
+    
+   }
+ }
+
+
+ @media(min-width:577px) and (max-width:768px){
+    .section-three{
+        .col-lg-6{
+            .card{
+                padding: 0 !important;
+            }
+        }
+    }
+ }
+
+ @media(min-width:769px) and (max-width:992px){
+    .section-three{
+        .col-lg-6{
+            .card{
+                padding: 0 !important;
+            }
+        }
+    }
+ }
+
+ @media(min-width:993px) and (max-width:1200px){
+    .section-three{
+        .col-lg-6{
+            .card{
+                padding: 0 !important;
+            }
+        }
+        .pedd{
+            padding-left: 30px;
+        }
+    }
+ }
+
+

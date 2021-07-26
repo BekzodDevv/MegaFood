@@ -1,0 +1,20 @@
+@font-face{
+    font-family: 'runik';
+    src: url('../fonts/Rubik/static/Rubik-Black.ttf') format(truetype);
+}
+
+$main-color: #8BA73B;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'runik',sans-serif;
+}
+@import 'nav';
+@import 'header';
+@import 'section1';
+@import 'bsection';
+@import 'task';

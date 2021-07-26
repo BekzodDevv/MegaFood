@@ -1,0 +1,74 @@
+header {
+    width: 100%;
+    height: 370px;
+    background: #4D8526;
+    .order {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        left: 0;
+        top: 40%;
+        .first {
+            font-size: 40px;
+        }
+        .second {
+            font-size: 16px;
+        }
+        a {
+            color: #8ba73b;
+            border-radius: 20px;
+            width: 150px;
+            font-size: 18px;
+            font-weight: 500;
+            img {
+                float: right;
+            }
+        }
+    }
+    .yashik {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        position: relative;
+        background: linear-gradient(#4e8526b2,#4e8526b2), url("../img/yashik.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        .yashik {
+            width: 200px;
+            position: absolute !important;
+            bottom: 0px;
+            right: 0;
+            display: none;
+        }
+    }
+}
+@media (max-width: 530px) {
+    header {
+        .order {
+            .first {
+                font-size: 30px;
+            }
+        }
+    }
+}
+@media (max-width: 406px) {
+    header {
+        .order {
+            top: 50%;
+            .first {
+                font-size: 25px;
+            }
+            .br {display: none;}
+            a {
+                margin-top: 20px;
+            }
+        }
+    }
+}
